@@ -20,6 +20,13 @@
   <body>
     <%= render "home/navbar" %>
     <div class="container">
+
+      <br/>
+      # Add code to helper
+      <% if notice %>  
+        <%= render "layouts/alerts" %>
+      <% end %>
+
       <br/>
       <%= yield %>
     </div>

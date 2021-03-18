@@ -1,24 +1,28 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @event.title %>
-</p>
+<div class="card">
+  <div class="card-header">
+    <h5 class="card-title"><%= @event.title %></h5>
+  </div>
+  <div class="card-body">
+    <p class="card-text"><%= @event.description %></p>
+    <li class="list-group-item">
+      <p>
+        <strong>Date:</strong>
+        <%= @event.date %>
+      </p>
+    </li>
+    <li class="list-group-item">
+      <p>
+        <strong>Location:</strong>
+        <%= @event.location %>
+      </p>
+    </li>
+    <br/>
+    <a href="#" class="btn btn-secondary">Attend Event</a>
+  </div>
+</div>
 
-<p>
-  <strong>Description:</strong>
-  <%= @event.description %>
-</p>
 
-<p>
-  <strong>Date:</strong>
-  <%= @event.date %>
-</p>
-
-<p>
-  <strong>Location:</strong>
-  <%= @event.location %>
-</p>
-
-<%= link_to 'Edit', edit_event_path(@event) %> |
-<%= link_to 'Back', events_path %>
+<br/>
+<%= link_to 'Edit', edit_event_path(@event), class: "btn btn-secondary" %>
+<%= link_to 'Back', events_path, class: "btn btn-dark" %>

@@ -11,27 +11,28 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
+  <div class="field form-group">
+    <%= form.text_field :title, class: "form-control", placeholder: "Event title" %>
   </div>
+  <br/>
 
-  <div class="field">
-    <%= form.label :description %>
-    <%= form.text_area :description %>
+  <div class="field form-group">
+    <%= form.text_area :description, class: "form-control", placeholder: "Event description" %>
   </div>
+  <br/>
 
-  <div class="field">
-    <%= form.label :date %>
-    <%= form.date_select :date %>
+  <div class="field form-group">
+    <%= form.date_select :date, class: "form-control", placeholder: "date" %>
   </div>
+  <br/>
 
-  <div class="field">
-    <%= form.label :location %>
-    <%= form.text_field :location %>
+  <div class="field form-group">
+    <%= form.text_field :location, class: "form-control", placeholder: "Location" %>
   </div>
+  <br/>
 
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit class:"btn -btn-secondary" %>
   </div>
+  <br/>
 <% end %>
