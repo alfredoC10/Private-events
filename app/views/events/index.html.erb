@@ -1,3 +1,4 @@
+<!-- Add code to a helper -->
 <% current_date = Date.today %>
 
 <h4>Upcoming Events</h4>
@@ -15,6 +16,7 @@
 
   <tbody>
     <% @events.each do |event| %>
+      <!-- Add code to a helper -->
       <% if current_date <= event.date  %>
 
         <tr>
@@ -49,6 +51,7 @@
 
   <tbody>
     <% @events.each do |event| %>
+      <!-- Add code to a helper -->
       <% if current_date > event.date  %>
 
         <tr>
