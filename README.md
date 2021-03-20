@@ -2,7 +2,7 @@
   Simple aplication that allows a user to setup an account in order to create events. The logged in user will be able to only edit their own events and see others's events. The pourpose of this project was to dive a little deeper in Ruby on Rails model associations. 
 ## About
 
-![screenshot](https://github.com/Wusinho/Members-only/blob/dev-MO/screen_shot.PNG)
+![screenshot](https://github.com/alfredoC10/Private-events/blob/dev/sreenshot.PNG)
 
 ## Built with
 
@@ -28,7 +28,7 @@ Run the following comands in the terminal in the next order:
   $ cd "here comes the path of your selected directory (double quotes must not be here)"
 
 - Step 2:
-  $ git clone https://github.com/Wusinho/Members-only.git
+  $ git clone https://github.com/alfredoC10/Private-events.git
 
 ### To run this project in your local environment
 
