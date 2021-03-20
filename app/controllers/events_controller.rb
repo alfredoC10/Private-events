@@ -62,6 +62,10 @@ class EventsController < ApplicationController
     redirect_to events_path, notice: "Not authorized to edit this event" if @event.nil?
   end
 
+  def my_events
+    @events = Event.all
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_event
