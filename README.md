@@ -1,5 +1,5 @@
 # Private members (associations project)
-  Simple aplication that allows a user to setup an account in order to create events. The logged in user will be able to only edit their own events and see others's events. The pourpose of this project was to dive a little deeper in Ruby on Rails model associations. 
+  Simple aplication that allows a user to setup an account in order to create events. The logged in user will be able to only edit their events and see others's events. The pourpose of this project was to understand a little deeper the foundations on Ruby on Rails model associations. 
 ## About
 
 ![screenshot](https://github.com/alfredoC10/Private-events/blob/dev/sreenshot.PNG)
@@ -67,8 +67,7 @@ Run the following comands in the terminal in the next order:
 👤 **Alfredo Huemac**
 
 - Github: [@Huemac-Alfredo](https://github.com/Huemac-Alfredo)
-- Twitter: [@AlfredoHuemac](https://twitter.com/AlfredoHuemac)
-- Linkedin: [Alfredo Huemac Córdova](https://https://www.linkedin.com/in/alfredo-huemac/)
+- Linkedin: [Alfredo Huemac Córdova](https://www.linkedin.com/in/alfredo-huemac/)
 
 ## 🤝 Contributing
 
