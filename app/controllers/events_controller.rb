@@ -1,8 +1,5 @@
 # frozen_string_literal: true
 
-# rubocop:disable Style/Documentation
-# rubocop:disable Lint/RedundantCopDisableDirective
-
 class EventsController < ApplicationController
   before_action :set_event, only: %i[show edit update destroy]
   before_action :authenticate_user!, except: %i[index show]
@@ -81,6 +78,3 @@ class EventsController < ApplicationController
     params.require(:event).permit(:title, :description, :date, :location, :user_id)
   end
 end
-
-# rubocop:enable Style/Documentation
-# rubocop:enable Lint/RedundantCopDisableDirective
