@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 # rubocop:disable Style/Documentation
+# rubocop:disable Lint/RedundantCopDisableDirective
 
 class EventsController < ApplicationController
   before_action :set_event, only: %i[show edit update destroy]
@@ -82,3 +83,4 @@ class EventsController < ApplicationController
 end
 
 # rubocop:enable Style/Documentation
+# rubocop:enable Lint/RedundantCopDisableDirective

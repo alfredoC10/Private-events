@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 # rubocop:disable Style/Documentation
+# rubocop:disable Lint/RedundantCopDisableDirective
 
 class RegistrationsController < Devise::RegistrationsController
   private
@@ -11,3 +12,4 @@ class RegistrationsController < Devise::RegistrationsController
 end
 
 # rubocop:enable Style/Documentation
+# rubocop:enable Lint/RedundantCopDisableDirective
